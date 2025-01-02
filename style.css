@@ -1,0 +1,145 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f9ed; /* Светлый бежевый фон */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Шапка (header) */
+.header {
+    background-color: #88a044; /* Зеленый фон */
+    padding: 20px 0;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Основной блок */
+.main {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f6f9ed; /* Светлый бежевый фон */
+}
+
+.main-title {
+    color: #88a044; /* Зеленый цвет заголовков */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.main-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+/* Таблица цен */
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+    background-color: white; /* Белый фон таблицы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.price-table th, .price-table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.price-table th {
+    background-color: #88a044; /* Зеленый фон заголовков таблицы */
+    color: white;
+    font-size: 18px;
+}
+
+.price-table td {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Секция "Чому обирають нас?" */
+.why-choose-us {
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #88a044; /* Зеленый цвет заголовков */
+    margin-bottom: 20px;
+}
+
+.benefits-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.benefits-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Кнопка */
+.button-container {
+    margin-top: 40px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #88a044; /* Зеленый цвет кнопки */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #6d8a38; /* Более темный зеленый при наведении */
+    transform: scale(1.05); /* Легкое увеличение кнопки */
+}
+
+/* Подвал (footer) */
+.footer {
+    background-color: #88a044; /* Зеленый фон */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 16px;
+}
